@@ -25,7 +25,6 @@ const requestHandler = (req, res) => {
             return res.end();
           });
         });
-    
       }
       res.setHeader('Content-Type', 'text/html');
       res.write('<html>');
@@ -33,6 +32,7 @@ const requestHandler = (req, res) => {
       res.write('<body><h1>Hello from my Node.js Server!</h1></body>');
       res.write('</html>');
       res.end();
+     
     
 }
 
